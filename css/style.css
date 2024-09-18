@@ -115,11 +115,8 @@ img {
 }
 
 .header-second div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem 1rem;
+    text-align: center;
 }
 
 .header-second p {
@@ -127,6 +124,7 @@ img {
     font-weight: 500;
     white-space: nowrap;
     color: var(--h-color);
+    margin-bottom: 1rem;
 }
 
 .header-second input,
@@ -134,7 +132,7 @@ img {
     border: 1px solid var(--h-color);
     color: var(--h-color);
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     padding: 0.5rem 1rem;
 }
 
@@ -235,6 +233,7 @@ h2 span {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
+    box-shadow: none;
 }
 
 .container-2 {
@@ -308,10 +307,17 @@ footer .newsletter {
     }
 
     .header-second div {
+        display: flex;
+        align-items: center;
         flex-direction: row;
         justify-content: space-between;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .header-second p {
+        margin-bottom: 0;
     }
 
     .container {
