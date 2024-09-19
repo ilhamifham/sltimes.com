@@ -233,7 +233,6 @@ h2 span {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
-    box-shadow: none;
 }
 
 .container-2 {
@@ -253,6 +252,7 @@ h2 span {
 .container-3 .medium.card {
     min-width: 236px;
     scroll-snap-align: start;
+    box-shadow: none;
 }
 
 footer .newsletter {
